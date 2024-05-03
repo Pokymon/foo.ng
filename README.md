@@ -51,7 +51,7 @@ Here's how to claim your free subdomain:
 
 ### Donations
 
-This project is completely free to use. If you find it helpful and would like to support its development, you can make a donation through [PayPal](https://foo.ng/paypal).
+This project is completely free to use. If you find it helpful and would like to support its development, you can make a donation through [PayPal](https://foo.ng/paypal) or [Saweria](https://foo.ng/saweria).
 
 ### License
 
