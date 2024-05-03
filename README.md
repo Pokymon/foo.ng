@@ -2,7 +2,7 @@
 
 This project offers free subdomains under the `foo.ng` domain for anyone who needs a custom URL for their web project, Minecraft server, or anything else that can be pointed to via a DNS record.
 
-## What is "foo"?
+### What is "foo"?
 
 The term "foo" is a placeholder word often used in computer programming and technical examples. It doesn't have a specific meaning, but it's used to represent a generic name or concept when the actual name doesn't matter.
 
