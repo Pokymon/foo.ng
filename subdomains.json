@@ -1,5 +1,6 @@
 {
     "bar": "cname.example.com",
+    "codersplanet": "codersplanet.vercel.app",
     "foo": "127.0.0.1",
-    "codersplanet": "codersplanet.vercel.app"
+    "loganpaxton": "loganpaxton.vercel.app"
 }
