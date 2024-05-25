@@ -1,8 +1,6 @@
 {
     "a": "192.168.5.20",
     "ab": "192.168.5.20",
-    "bar": "cname.example.com",
     "codersplanet": "codersplanet.vercel.app",
-    "foo": "127.0.0.1",
     "loganpaxton": "loganpaxton.vercel.app"
 }
