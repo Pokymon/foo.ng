@@ -38,6 +38,7 @@ Here's how to claim your free subdomain:
 6. **Submit Pull Request:** 
     - Create a pull request from your forked repository to this repository. 
     - Briefly describe your project in the pull request description.
+    - If you are planning to use Vercel, please include the TXT record provided by Vercel in the pull request description.
     - We'll review your pull request and merge it if everything looks good. Once merged, your subdomain will be live at `your-subdomain.foo.ng`!
 
 **Example `subdomains.json` Entry:**
