@@ -1,0 +1,32 @@
+name: Sort Subdomains
+
+on:
+  push:
+    paths:
+      - 'subdomains.json'
+
+jobs:
+  sort:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Sort subdomains
+        run: npm run sort
+
+      - name: Commit and push if changes
+        run: |
+          git config --global user.name 'Your Name'
+          git config --global user.email 'your-email@example.com'
+          git add subdomains.json
+          git commit -m "Auto-sort subdomains.json"
+          git push
