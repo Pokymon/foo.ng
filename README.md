@@ -28,7 +28,7 @@ Here's how to claim your free subdomain:
         - Replace `your-target-location` with your project's location depending on the record type:
             - For an A Record: Use the IP address your project is hosted on (e.g., "127.0.0.1"). 
             - For a CNAME Record: Use the domain name your project is currently accessible on (e.g., "cname.example.com").
-6. **Submit Pull Request:** 
+5. **Submit Pull Request:** 
     - Create a pull request from your forked repository to this repository. 
     - Briefly describe your project in the pull request description.
     - If you are planning to use Vercel, please include the TXT record provided by Vercel in the pull request description.
