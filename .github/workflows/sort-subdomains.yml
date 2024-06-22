@@ -25,8 +25,10 @@ jobs:
 
       - name: Commit and push if changes
         run: |
-          git config --global user.name 'Your Name'
-          git config --global user.email 'your-email@example.com'
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add subdomains.json
-          git commit -m "Auto-sort subdomains.json"
+          git diff-index --quiet HEAD || git commit -m "Auto-sort subdomains.json"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
