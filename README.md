@@ -28,13 +28,6 @@ Here's how to claim your free subdomain:
         - Replace `your-target-location` with your project's location depending on the record type:
             - For an A Record: Use the IP address your project is hosted on (e.g., "127.0.0.1"). 
             - For a CNAME Record: Use the domain name your project is currently accessible on (e.g., "cname.example.com").
-5. **Sort Keys:**
-    - Run the following commands in your terminal to sort the subdomains alphabetically:
-
-        ```bash
-        npm install
-        npm run sort
-        ```
 6. **Submit Pull Request:** 
     - Create a pull request from your forked repository to this repository. 
     - Briefly describe your project in the pull request description.
