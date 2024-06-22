@@ -1,10 +1,10 @@
 {
     "a": "192.168.5.20",
     "ab": "192.168.5.20",
+    "botanybase": "botanybase.github.io",
     "codersplanet": "codersplanet.vercel.app",
     "krunch": "krunch.pages.dev",
     "loganpaxton": "loganpaxton.vercel.app",
     "matthew": "mjuch.codeberg.page",
-    "santii": "santii.vercel.app",
-    "botanybase": "botanybase.github.io"
+    "santii": "santii.vercel.app"
 }
