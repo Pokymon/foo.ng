@@ -4,7 +4,7 @@
   "description": "Free subdomains for everyone.",
   "main": "subdomains.json",
   "scripts": {
-    "sort": "sort-json subdomains.json"
+    "sort": "npx sort-json subdomains.json"
   },
   "author": "Fauqi Amar Hizbullah",
   "license": "MIT",
