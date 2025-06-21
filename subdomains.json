@@ -1,5 +1,4 @@
 {
-    "cineflix": "cineflix_web.cineflix.codeberg.page",
     "5chan": "5chan-vercel.vercel.app",
     "a": "192.168.5.20",
     "ab": "192.168.5.20",
@@ -15,6 +14,7 @@
     "botanybase": "botanybase.github.io",
     "cdn-picgenv": "picgenv-cdn-proxy.vercel.app",
     "choudery": "ghs.google.com",
+    "cineflix": "cineflix_web.cineflix.codeberg.page",
     "codersplanet": "codersplanet.vercel.app",
     "crown": "royal-server.github.io",
     "crown-cdn": "royal-server.github.io",
