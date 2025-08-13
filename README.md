@@ -16,7 +16,7 @@ Here's how to claim your free subdomain:
 2. **Fork this Repository:**  Click on "Fork" button to create your own copy of this repository.
 3. **Set Up Your Project:** 
     - Configure your web project, Minecraft server, or other service to be accessible at a custom domain.
-    - Choose a hosting platform like [GitHub Pages](https://foo.ng/githubpages), Vercel, or any provider that allows custom domains.
+    - Choose a hosting platform like [GitHub Pages](https://foo.ng/githubpages), Vercel, or any provider that allows custom domains. 
 4. **Add Your Subdomain:**
     - Open the `subdomains.json` file in this repository.
     - Add a new entry in the following format:
