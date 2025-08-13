@@ -17,7 +17,6 @@ Here's how to claim your free subdomain:
 3. **Set Up Your Project:** 
     - Configure your web project, Minecraft server, or other service to be accessible at a custom domain.
     - Choose a hosting platform like [GitHub Pages](https://foo.ng/githubpages), Vercel, or any provider that allows custom domains.
-    - **Important Note:** If you are using Vercel to host your site, you need to include the Vercel TXT record (to verify your subdomain) in your PR (It would be appreciated if you make it copy and pasteable). If you do end up needing help, please feel free to create an issue, and someone will help you.
 4. **Add Your Subdomain:**
     - Open the `subdomains.json` file in this repository.
     - Add a new entry in the following format:
