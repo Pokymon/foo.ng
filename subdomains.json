@@ -57,6 +57,7 @@
     "opti": "10.0.0.6",
     "owentech": "owentechv.github.io",
     "pahe": "pahe-premium.pages.dev",
+    "pawflix": "pawflix.pages.dev",
     "philips": "37.114.37.82",
     "pi": "10.0.0.2",
     "pnsgos": "shoknt.github.io",
@@ -79,6 +80,5 @@
     "weeb": "weeblama.netlify.app",
     "wsv": "45.137.70.53",
     "yigit": "mryton.vercel.app",
-    "zethsu": "zethsu.vercel.app",
-    "pawflix": "pawflix.pages.dev"
+    "zethsu": "zethsu.vercel.app"
 }
