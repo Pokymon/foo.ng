@@ -30,6 +30,7 @@
     "easylua": "easydotlua.vercel.app",
     "fauqi": "fauqi.vercel.app",
     "fiftyfive": "fiftyfive-foo-ng.vercel.app",
+    "fluxapi": "4f17ef91ee38b111.vercel-dns-017.com",
     "fpl": "129.154.192.67",
     "frevorossamples": "ghs.googlehosted.com",
     "gfiles": "185.199.108.153",
@@ -91,6 +92,5 @@
     "weeb": "weeblama.netlify.app",
     "wsv": "45.137.70.53",
     "yigit": "mryton.vercel.app",
-    "zethsu": "zethsu.vercel.app",
-    "fluxapi": "4f17ef91ee38b111.vercel-dns-017.com"
+    "zethsu": "zethsu.vercel.app"
 }
