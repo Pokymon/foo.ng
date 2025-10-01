@@ -1,5 +1,4 @@
 {
-    "foodnation": "foodnationdc.vercel.app",
     "5chan": "5chan-vercel.vercel.app",
     "a": "192.168.5.20",
     "ab": "192.168.5.20",
@@ -32,6 +31,7 @@
     "fauqi": "fauqi.vercel.app",
     "fiftyfive": "fiftyfive-foo-ng.vercel.app",
     "fluxapi": "4f17ef91ee38b111.vercel-dns-017.com",
+    "foodnation": "foodnationdc.vercel.app",
     "fpl": "129.154.192.67",
     "frevorossamples": "ghs.googlehosted.com",
     "gfiles": "185.199.108.153",
