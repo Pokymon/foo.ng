@@ -85,6 +85,7 @@
     "shiftapi": "website-lykcloud.pages.dev",
     "shok": "shok.vercel.app",
     "spark": "10.0.0.4",
+    "sso": "159.195.14.155",
     "starship": "starship-app.com",
     "totally-learning": "naslambers.synology.me",
     "undangan": "undangan-wedding-web.vercel.app",
@@ -95,6 +96,5 @@
     "wsv": "45.137.70.53",
     "xn--7ckvc6687a2go": "takonepochi.github.io",
     "yigit": "mryton.vercel.app",
-    "zethsu": "zethsu.vercel.app",
-    "sso": "159.195.14.155"
+    "zethsu": "zethsu.vercel.app"
 }
