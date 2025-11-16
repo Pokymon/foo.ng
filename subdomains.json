@@ -17,6 +17,7 @@
     "btch": "hostinger-bot.github.io",
     "cdn-picgenv": "picgenv-cdn-proxy.vercel.app",
     "choudery": "ghs.google.com",
+    "classroom": "152.53.206.77",
     "codersplanet": "codersplanet.vercel.app",
     "crown": "royal-server.github.io",
     "crown-cdn": "royal-server.github.io",
@@ -97,6 +98,5 @@
     "weeb": "weeblama.netlify.app",
     "xn--7ckvc6687a2go": "takonepochi.github.io",
     "yigit": "mryton.vercel.app",
-    "zethsu": "zethsu.vercel.app",
-    "classroom":"152.53.206.77"
+    "zethsu": "zethsu.vercel.app"
 }
