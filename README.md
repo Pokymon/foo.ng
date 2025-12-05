@@ -1,3 +1,8 @@
+> **⚠️ Important Hosting Information:**
+> - **Vercel users:** You must provide the TXT record from Vercel in your pull request description
+> - **Not supported:** Netlify and Cloudflare Workers
+> - **Cloudflare Pages:** Fully supported ✓
+
 ## Free Subdomains under foo.ng
 
 This project offers free subdomains under the `foo.ng` domain for anyone who needs a custom URL for their web project, Minecraft server, or anything else that can be pointed to via a DNS record.
