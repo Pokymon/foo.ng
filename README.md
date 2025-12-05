@@ -1,7 +1,5 @@
-> **⚠️ Important Hosting Information:**
-> - **Vercel users:** You must provide the TXT record from Vercel in your pull request description
-> - **Not supported:** Netlify and Cloudflare Workers
-> - **Cloudflare Pages:** Fully supported ✓
+> [!IMPORTANT]  
+> **Hosting Platform Compatibility:** If you're using **Vercel**, you must provide the TXT record in your pull request. **Netlify** and **Cloudflare Workers** are not supported. However, **Cloudflare Pages** is supported.
 
 ## Free Subdomains under foo.ng
 
