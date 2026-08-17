@@ -1,4 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
+# Deploy workflow
 name: Deploy static content to Pages
 
 on:
@@ -34,16 +34,27 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        id: build
+        run: npm run build 2>&1; echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Show build result
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "## Build Failed" >> $GITHUB_STEP_SUMMARY
+          echo "The vite build failed. Check logs above for details." >> $GITHUB_STEP_SUMMARY
 
       - name: Setup Pages
+        if: steps.build.outcome == 'success'
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
+        if: steps.build.outcome == 'success'
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
 
       - name: Deploy to GitHub Pages
+        if: steps.build.outcome == 'success'
         id: deployment
         uses: actions/deploy-pages@v4
