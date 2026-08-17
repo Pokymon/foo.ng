@@ -1,0 +1,16 @@
+=== CUSTOM BACKDROP VIDEO GUIDE ===
+
+To make your "motorcar racing" video from Clipchamp play as the background:
+
+1. Locate the video file on your computer (e.g., your exported Clipchamp .mp4 file).
+2. Rename the file to exactly: motorcar-racing.mp4
+3. Drag and drop this "motorcar-racing.mp4" file directly in this "public" folder of the project using the file explorer.
+4. Once placed in this "public" directory, Vite will serve it locally at the URL /motorcar-racing.mp4.
+5. The background video will now play automatically in the Game Development category page!
+
+=== TO MANUALLY ADJUST OPACITY ===
+Open "/src/components/ServicePage.tsx" and find line ~3568:
+    style={{ opacity: 0.55 }} // <--- ADJUST BACKDROP OPACITY HERE (0 to 1)
+
+Change the 0.55 value (e.g., to 0.75 for a stronger background, or 0.25 for a more subtle one).
+

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --background: #ffffff;
+  --primary: #33c07a;
+}
+
+.dark {
+  --background: #ffffff;
+}
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --color-brand: #33c07a;
+  --color-brand-hover: #2cb06f;
+  --color-brand-light: #e6f7ef;
+  --color-brand-light-hover: #d3f2e2;
+  --color-brand-muted: rgba(51, 192, 122, 0.1);
+  --color-brand-muted-hover: rgba(51, 192, 122, 0.2);
+}
+
